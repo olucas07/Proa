@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Loja de Informática">
+    <meta name="keywords" content="Informática, Loja, Acessórios">
+    <meta name="author" content="João Victor, Luís Gabriel da Silva, Guilherme Gomes, Lucas Cabaleiro e Lucas Rocha">
+    <meta http-equiv="refresh" content="60">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/logo-azul.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/acea1bd0e5.js" crossorigin="anonymous"></script>
+    <title>Orçamento | Info Tech</title>
+</head>
+
+<body id="body">
+    <header>
+        <!-- NAV BAR -->
+        <nav>
+            <a class="logo" href="/"><img src="/img/logo-azul.png " alt=""></a>
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="orcamento.html">Orçamento</a></li>
+                <li><a href="unidades.html">Unidades</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="principal">
+        <article class="sobre">
+            <h2>Faça um orçamento!</h2>
+        </article>
+        <!-- FORMULÁRIO -->
+        <section class="form">
+            <h3>Entraremos em contato com você</h3>
+            <p>Seus dados estarão seguros conosco. <i class="fas fa-shield-alt"></i></p>
+            <form action="#" method="post">
+                <input type="text" name="nome" id="nome" placeholder="Digite o seu nome completo">
+                <input type="email" name="email" id="email" placeholder="Digite o seu email">
+                <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Selecione o serviço</option>
+                    <option value="1">Manutenção de computadores</option>
+                    <option value="2">Defesa de dados</option>
+                    <option value="3">Estilização de sites</option>
+                </select>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                    <label for="floatingTextarea">Faça uma observção</label>
+                </div>
+                <button type="submit">ENVIAR</button>
+            </form>
+        </section>
+    </main>
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+        <div class="wrapper">
+            <div class="footer-box">
+                <div class="company-footer">
+                    <img src="img/logo-branco.png" alt="Info Tech logo">
+                    <h2>Info Tech</h2>
+                    <p>A tecnologia perto de você!</p>
+                </div>
+            </div>
+            <div class="footer-box">
+                <div class="articlesfooter">
+                    <h2>Fale conosco!</h2>
+                    <ul class="footer-list footer-article-list">
+                        <li><a href="#"><i class="far fa-envelope"> </i> Email: contatoinfotech@gmail.com </a></li>
+                        <li><a href="#"><i class="fas fa-phone-alt"></i> Telefone: 27313145</a></li>
+                        <li><a href="#"><i class="fas fa-mobile-alt"></i> Celular: 11 4002-8922</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h2>Nossas redes sociais.</h2>
+                <ul class="footer-list">
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-facebook-square"></i> 
+                            <span>Facebook</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i> 
+                            <span>Instagram</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-linkedin"></i> 
+                            <span>Linkedin</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="wrapper">
+                <p>&copy;Info Tech - Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BOOTSTRAP - JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

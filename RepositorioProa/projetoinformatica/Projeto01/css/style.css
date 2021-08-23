@@ -1,0 +1,615 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+p {
+    font-size: 1em;
+    color: #777;
+}
+
+/*-----------------------------------------------STYLE 1-------------------------------------------*/
+/* CABEÇALHO */
+.cabecalho {
+    width: 100%;
+    float: left;
+    padding: 50px 8%;
+    background-color: #13c7ae;
+}
+
+.logo a {
+    width: 84px;
+    height: 97px;
+    background-image: url(../img/logo.jpeg);
+    float: left;
+    font-size: 0;
+    border-radius: 5px;
+}
+
+.cabecalho form {
+    width: 30%;
+    float: right;
+}
+
+.cabecalho input[type="text"] {
+    width: 85%;
+    float: left;
+    padding: 15px 10px 15px 10px;
+    border-radius: 10px 0 0 10px;
+}
+
+.cabecalho button {
+    width: 15%;
+    float: left;
+    padding: 15px 10px;
+    border-radius: 0 10px 10px 0;
+    background-color: #0cae98;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* MENU */
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.logo img {
+    width: 75%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0, 0.2);
+    height: 10vh;
+    width: 100%;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 10px 0 10px 0;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #111;
+    transition: 0.3s;
+    font-weight: 700;
+}
+
+.nav-list li a:hover {
+    text-decoration: none;
+    color: #092aa5;
+}
+
+.mobile-menu {
+    cursor: pointer;
+    display: none;
+}
+
+/* PRINCIPAL */
+.principal {
+    width: 100%;
+    float: left;
+    padding: 16px 8%;
+}
+
+.sobre {
+    width: 60%;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+.sobre h2 {
+    color: #111;
+}
+
+.sobre img {
+    width: 50%;
+    float: left;
+    border-radius: 7px;
+    margin: 0 15px 5px 0;
+}
+
+.sobre p {
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+/* ONDE ESTAMOS - SIDEBAR*/
+.onde-estamos {
+    width: 70%;
+    float: right;
+    padding: 15px 20px;
+    background-color: rgb(243, 240, 240);
+    border-radius: 10px;
+}
+
+.onde-estamos h2 {
+    margin-bottom: 5px;
+    float: left;
+}
+
+#iframe {
+float: left;
+height: 200px;
+width: 800px;
+max-width: max-content;
+}
+
+.onde-estamos p {
+    color: #0cae98;
+    margin-bottom: 12px;
+}
+
+/* NEWSLETTER */
+.newsletter {
+    width: 100%;
+    float: left;
+    background-color: #111;
+    padding: 50px 8%;
+}
+
+.newsletter h3 {
+    font-size: 1.8em;
+    color: #fff;
+}
+
+.newsletter p {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.newsletter form {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+
+.newsletter input {
+    width: 40%;
+    margin-right: 1%;
+    padding: 15px 10px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: initial;
+    color: #fff;
+}
+
+.newsletter input::placeholder {
+    color: #fff;
+}
+
+.newsletter button {
+    width: 17%;
+    background-color: #fff;
+    padding: 15px 10px;
+    border-radius: 10px;
+    float: right;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.newsletter button:hover {
+    background-color: #111;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+/* RODAPE */
+.rodape {
+    width: 100%;
+    float: left;
+    background-color: #092aa5;
+    padding: 25px 8%;
+    margin-top: 40px;
+}
+
+.rodape p {
+    color: #fff;
+    font-weight: bold;
+}
+
+.rodape h2 {
+    color: #fff;
+}
+
+/* FOOTER - RODAPE */
+footer {
+    padding: 5em 0;
+    padding-bottom: 40px;
+}
+
+footer h2,
+footer p,
+footer a,
+footer span {
+    color: #fff;
+}
+
+footer h2 {
+    font-weight: 400;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+}
+
+.footer-box {
+    width: 31%;
+    padding: 1%;
+    float: left;
+}
+
+footer .wrapper:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.company-footer {
+    width: 80%;
+}
+
+.company-footer h2 {
+    margin-top: 20px;
+}
+
+.company-footer h2,
+.company-footer p {
+    margin-bottom: 20px;
+}
+
+.footer-list li {
+    margin-bottom: 15px;
+}
+
+.footer-list a {
+    transition: 0.5s;
+}
+
+.footer-list a:hover {
+    color: #FFF;
+}
+
+.footer-list li:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.articles-footer {
+    width: 80%;
+}
+
+.footer-list.footer-article-list span {
+    display: block;
+    float: none;
+}
+
+.fab {
+    font-size: 30px;
+    margin-right: 10px;
+    float: left;
+}
+
+.footer-list li span {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #fff;
+}
+
+.footer-bottom p {
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+#ideais {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*-----------------------------------------------STYLE 2-------------------------------------------*/
+/* NAVBAR */
+.my-links {
+    text-decoration: none;
+}
+
+/* ARTICLE - SOBRE */
+.sobre {
+    margin-top: 10px;
+}
+
+/* FORMULÁRIO */
+.form {
+    width: 100%;
+    float: left;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 50px 8%;
+}
+
+.form h3 {
+    font-size: 1.8em;
+    color: #092aa5;
+}
+
+.form p {
+    color: #092aa5;
+    font-size: 1.2em;
+}
+
+.form form {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+
+.form input {
+    width: 100%;
+    margin-right: 1%;
+    margin: 0 0 13px 0;
+    padding: 15px 10px;
+    border: 1.3px solid #092aa5;
+    border-radius: 5px;
+    color: #111;
+}
+
+.form input::placeholder {
+    color: #111;
+}
+
+.form select {
+    border-radius: 5px;
+    margin-bottom: 13px;
+    border: 1.3px solid #092aa5;
+}
+
+.form textarea {
+    resize: none;
+    border-radius: 5px;
+    border: 1.3px solid #092aa5;
+    height: auto;
+}
+
+.form button {
+    width: 20%;
+    background-color: #092aa5;
+    color: #fff;
+    font-weight: 600;
+    padding: 15px 10px;
+    border-radius: 5px;
+    margin-top: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form button:hover {
+    background-color: #2042be;
+    color: #fff;
+}
+
+
+/*-----------------------------------------------STYLE PRODUTOS-------------------------------------------*/
+/* SEÇÃO */
+#blog-container {
+    text-align: center;
+    padding: 5em 0;
+}
+
+#blog-container .p-center {
+    margin-bottom: 60px;
+}
+
+.article-box {
+    display: inline-block;
+    width: 31%;
+    padding: 0 1%;
+    text-align: left;
+}
+
+.article-box img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.article-box h4 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.article-box h4 a {
+    text-decoration: none;
+    color: #666;
+}
+
+.article-date {
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.article-resume {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.article-btn {
+    color: #092aa5;
+    font-weight: 600;
+}
+
+.article-btn:hover {
+    color: #2042be;
+    font-weight: 600;
+}
+
+/*-----------------------------------------------STYLE PRODUTOS INDIVIDUAIS-------------------------------------*/
+.prod {
+    width: 100%;
+}
+
+.imgprod {
+    float: left;
+    width: 500px;
+    height: 390px;
+    padding: 20px 20px 60px 0;
+    margin-left: 80px;
+    margin-top: 5px;
+
+}
+
+.infoprod {
+    width: 45%;
+    height: 100%;
+    float: right;
+    margin: 40px 30px 0 0;
+}
+
+.descprod {
+    margin: 20px 80px 20px 80px;
+    float: left;
+    font-size: 30px;
+}
+
+.desc {
+    float: left;
+    margin: 0 80px 40px 80px;
+    text-align: justify;
+}
+
+.infoprod button {
+    cursor: pointer;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.178);
+    padding: 15px 10px;
+    border-radius: 10px;
+    margin: 0 0 30px 0;
+}
+
+#nomeprod {
+    font-size: xx-large;
+}
+
+.infotec {
+    float: left;
+    margin: 0 80px 80px 78px;
+    padding: 45px;
+    background-color: rgba(0, 0, 0, 0.089);
+    border-radius: 10px;
+}
+
+.formaspag {
+    float: left;
+    margin: 0 5px 80px 100px;
+    padding: 45px 45px 60px 20px;
+    background-color: rgba(0, 0, 0, 0.089);
+    border-radius: 10px;
+}
+
+.voltar {
+    float: left;
+    cursor: pointer;
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.178);
+    padding: 15px 10px;
+    border-radius: 10px;
+    margin: 0 0 30px 0;
+}
+
+.voltar img {
+    width: 25px;
+    height: 25px;
+}
+
+/*---------------------======-----------------RESPONSIVIDADE---------------------------------------------------*/
+@media screen and (max-width: 415px) {
+#body{
+    width: 100%;
+    float: left;
+    max-width: 400px;
+    font-size: 10px;
+}
+#body h1{
+    float:left;
+    margin: 0 0 0 0;
+}
+#body p{
+    float:left;
+    margin: 0 0 0 0;
+}
+#iframe{
+    float:left;
+    margin: 0 0 0 0;
+    height: 250px;
+    width: 0;
+}
+#body img{
+    float:left;
+    margin: 0 0 0 0;
+}
+#body nav{
+    float:left;
+    margin: 0 0 0 0;
+}
+#body li a {
+    font-size: 10px;
+    float: left;
+}
+#body li{
+    margin:5px;
+    float: left;
+}
+#carouselExampleCaptions{
+    float: left;
+}
+}
